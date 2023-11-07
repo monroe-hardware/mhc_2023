@@ -1,0 +1,28 @@
+<header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-5">
+            <a class="navbar-brand" href="/">{{site.name}}</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link{%IF id == "index"} active{%ENDIF}" {%IF id == "index"}aria-current="page"{%ENDIF} href="/">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="javascript:">Company Info</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item{%IF id == "about"} active{%ENDIF}" {%IF id == "about"}aria-current="page"{%ENDIF} href="/about.html">About</a></li>
+                            <li><a class="dropdown-item{%IF id == "history"} active{%ENDIF}" {%IF id == "history"}aria-current="page"{%ENDIF} href="/history.html">History</a></li>
+                            <li><a class="dropdown-item{%IF id == "location"} active{%ENDIF}" {%IF id == "location"}aria-current="page"{%ENDIF} href="/location.html">Location</a></li>
+                            <li><a class="dropdown-item{%IF id == "directory"} active{%ENDIF}" {%IF id == "directory"}aria-current="page"{%ENDIF} href="/directory.html">Directory</a></li>
+
+                            <li><a class="dropdown-item" target="_blank" href="https://retail.monroehardware.com/">Retail Division</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link{%IF id == "contact"} active{%ENDIF}" {%IF id == "contact"}aria-current="page"{%ENDIF} href="/contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://b2b.monroehardware.com/">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</header>
