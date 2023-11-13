@@ -39,3 +39,18 @@ thead {
     background-color: #030;
     color: #fff;
 }
+
+#navtogglecheck:checked+.navbar-collapse { display:block!important; }
+#navtogglecheck:checked+.navbar-toggler>.navbar-toggler-icon { border-color: #fff; color:#fff; }
+
+/* Mobile */
+@media (max-width: 991px) {
+    /*
+    header .navbar-toggler:focus+.navbar-collapse { display:block; }
+    header .navbar-collapse:focus-within+.navbar-collapse { display:block; }
+    header .collapse:focus-within+.collapse { display:block!important; }
+    */
+
+    
+    ol.breadcrumb {display:none;}
+}
