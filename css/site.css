@@ -50,7 +50,5 @@ thead {
     header .navbar-collapse:focus-within+.navbar-collapse { display:block; }
     header .collapse:focus-within+.collapse { display:block!important; }
     */
-
-    
     ol.breadcrumb {display:none;}
 }
